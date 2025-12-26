@@ -10,10 +10,9 @@ print(10 in[1, 2, 3, 4])
 name = input("Enter your name : ")
 for i in range(3):
     print(name)
-'''
+
 for i in range(5) :
     if i == 2:
         continue
     print(i)
-    print('Out of loop and 2 is skiped')
-    '''
+print('Out of loop and 2 is skiped')
