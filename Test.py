@@ -68,4 +68,15 @@ def add_number(a, b):
     return a + b
 
 # Correct usage:
-greet
+greet("Alice") # "Alice is the argument"
+
+result = add_number(3, 5) # 3 and 5 are the arguments
+print(result)
+
+#Program 2: To Multiply Two Number by creating a  Function 
+
+def multiply_number(x, y):
+    return x * y
+
+result = multiply_number(4, 5)
+print(result)
